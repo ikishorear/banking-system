@@ -8,7 +8,7 @@ public abstract class Account {
     protected double AccountBalance;
     protected boolean isActive;
 
-   protected Account(String AccountNumber, String CustomerId, String PIN, double AccountBalance){
+   public Account(String AccountNumber, String CustomerId, String PIN, double AccountBalance){
         this.AccountNumber = AccountNumber;
         this.AccountBalance = AccountBalance;
         this.CustomerId = CustomerId;
