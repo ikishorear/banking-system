@@ -28,6 +28,7 @@ public class ConsoleApp {
 
         System.out.println("Enter the inital deposit : ");
         double initDep = console.nextDouble();
+        console.nextLine();
 
         System.out.println("Enter your PIN : ");
         String pin = console.nextLine();
@@ -42,6 +43,7 @@ public class ConsoleApp {
 
         System.out.println("Enter init deposit : ");
         double initDep = console.nextDouble();
+        console.nextLine();
 
         System.out.println("Enter your PIN : ");
         String pin = console.nextLine();
